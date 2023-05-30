@@ -14,6 +14,47 @@ Ensure that both Python and Node.js are installed on your system
     `python --version`
 - Verify if node and npm are installed  
 
-    `node --version`
+    `node --version`  
     `npm --version`
+    
+## Setup Backend
+- Navigate to cloned project directory
+  
+  `cd IMS-React-Django`
+  
+- Create a python virtual environment for backend  
 
+  `python -m venv env`
+  
+- Activate the virtual environmen
+  
+  `env\Scripts\activate`
+  
+- Install python libraries 
+
+  `cd backend`  
+  `pip install -r requirements.txt`
+  
+- Start Django server
+  
+  ` python manage.py runserver`
+  
+- Django backend server will start on http://localhost:8000/ 
+
+
+## Setup Frontend
+- Open a new terminal and navigate to frontend directory
+  
+  `cd IMS-React-Django/frontend`
+  
+- Install frontend libraries using npm  
+
+  ` npm install`
+  
+- Start Node server
+  
+  ` npm start`
+  
+ - Once node is started you can access the application on http://localhost:3000/
+  
+  
